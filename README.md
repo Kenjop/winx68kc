@@ -11,9 +11,8 @@ SHARP X68000 emulator ソースコードドキュメント / (c) 2024- Kengo Tak
 
 ## 2. コンパイル方法
 
-  - win32/winx68kc.sln コンパイルしてください。Visual Studio 2017 のプロジェクトになります。
-  - DirectX SDKがインストールされている必要があります。手元では Feb.2010 で動作確認してい
-    ます。
+  - win32/winx68kc.sln からコンパイルしてください。Visual Studio 2017 のプロジェクトになります。
+  - DirectX SDKがインストールされている必要があります。手元では Feb.2010 で動作確認しています。
 
 ## 3. ソース構成について
 
