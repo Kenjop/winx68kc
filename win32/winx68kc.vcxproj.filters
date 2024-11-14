@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\x68000">
+      <UniqueIdentifier>{3c6758e0-8f76-47b4-8cb4-d53991b9d63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\device">
+      <UniqueIdentifier>{3a2e8050-e879-4d7d-b914-f14bfb548404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{47658243-62f6-41aa-b70d-76594a20efb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\win32">
+      <UniqueIdentifier>{3c883548-22b1-4031-a615-55a488257845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\device\fmgen">
+      <UniqueIdentifier>{53d90079-8404-445b-b984-685b8697403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\device\musashi">
+      <UniqueIdentifier>{461c4535-1367-4448-ad17-0548aa2143eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\device\musashi\softfloat">
+      <UniqueIdentifier>{9afeee5d-a12b-4159-b084-57ebb0e8b017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\win32\shader">
+      <UniqueIdentifier>{c6537f47-008e-4c53-8442-7d32f716e912}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\device\fmgen\fmgen.cpp">
+      <Filter>ソース ファイル\device\fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\device\fmgen\fmtimer.cpp">
+      <Filter>ソース ファイル\device\fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\device\fmgen\opm.cpp">
+      <Filter>ソース ファイル\device\fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\device\musashi\softfloat\softfloat.c">
+      <Filter>ソース ファイル\device\musashi\softfloat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\device\musashi\m68kcpu.c">
+      <Filter>ソース ファイル\device\musashi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\device\musashi\m68kops.c">
+      <Filter>ソース ファイル\device\musashi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\src\event_timer.c">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\src\mem_manager.c">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\src\screen_buffer.c">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\src\sound_stream.c">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\src\state.c">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32config.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32core.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32d3d.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32joystick.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32keyboard.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32main.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32menu.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32midi.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32sound.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32statbar.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_dma.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_driver.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_fdc.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_fdd.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_ioc.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_mfp.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_midi.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_rtc.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_sasi.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_scc.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_video.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_adpcm.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_cpu.c">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x68000\src\x68000_opm.cpp">
+      <Filter>ソース ファイル\x68000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32log.cpp">
+      <Filter>ソース ファイル\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="winx68kc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\x68000\include\x68000_disk_dim.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_disk_xdf.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_dma.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_driver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_fdc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_fdd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_ioc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_mfp.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_midi.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_rtc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_sasi.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_scc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_video.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32config.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32core.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32d3d.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32joystick.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32keyboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32menu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32midi.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32statbar.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\include\event_timer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\include\emu_driver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\include\mem_manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\include\osconfig.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\include\screen_buffer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\include\sound_stream.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\include\state.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\fmfilter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\fmgen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\opm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\types.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\psg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\fmgeninl.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\headers.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\fmgen\misc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\musashi\m68k.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\musashi\m68kconf.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\musashi\m68kcpu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\musashi\m68kmmu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\device\musashi\m68kops.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_adpcm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_cpu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\x68000\include\x68000_opm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x68000\include\x68000_gr_draw.inc">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+    <None Include="..\x68000\include\x68000_gr_mix.inc">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+    <None Include="..\x68000\include\x68000_mix_base.inc">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+    <None Include="..\x68000\include\x68000_mix_normal.inc">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+    <None Include="..\x68000\include\x68000_mix_sppri.inc">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+    <None Include="..\x68000\include\x68000_mix_trans.inc">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+    <None Include="..\x68000\include\x68000_mix_trtx0.inc">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\ps_0.hlsl">
+      <Filter>ソース ファイル\win32\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vs_0.hlsl">
+      <Filter>ソース ファイル\win32\shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
