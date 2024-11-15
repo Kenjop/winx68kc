@@ -957,7 +957,7 @@ static MEM16W_HANDLER(X68000_GVRAM_W)
 
 						1024 x 1024 モードは実際には以下のような配置になっており、
 						GD0 が GVRAM 16bit の bit0～3、GD1 が bit4～7、GD2 が bit8～11、
-						GD2 が bit12～15 という割り当てになる。
+						GD3 が bit12～15 という割り当てになる。
 
 						       1024dot
 						    <----------->
