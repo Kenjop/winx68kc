@@ -148,7 +148,7 @@ static STREAM_HANDLER(X68ADPCM_StreamCB)
 	if ( ( snd->stat & 0x80 ) == 0 ) {  // 再生中
 		UINT32 n = len;
 		SINT32* p = buf;
-		// DPCM出力の最大値は +2047/-2048、よって x16 で 0x7FFF～-0x8000 になる
+		// ADPCM出力の最大値は +2047/-2048、各ボリュームは1.0f基準、よって x16 で 0x7FFF～-0x8000 になる
 		const float vl = snd->vol_l * snd->volume * 16.0f;
 		const float vr = snd->vol_r * snd->volume * 16.0f;
 
@@ -225,8 +225,8 @@ void X68ADPCM_Reset(X68ADPCM handle)
 	INFO_MSM6258* snd = (INFO_MSM6258*)handle;
 	if ( snd ) {
 		snd->prescaler = 0;
-		snd->vol_l = 256;
-		snd->vol_r = 256;
+		snd->vol_l = 1.0f;
+		snd->vol_r = 1.0f;
 		snd->stat = 0xC0;
 		snd->data = 0;
 		snd->step = 0;
